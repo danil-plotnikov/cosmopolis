@@ -1,0 +1,104 @@
+.question
+ display: flex
+ // align-items: center
+ justify-content: space-between
+ // margin-bottom: 200rem
+ position: relative
+ margin-bottom: -5rem
+ margin-top: -80rem
+ padding-top: 80rem
+ &-bg 
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -40%)
+  z-index: -2
+  max-width: none
+  width: 1920rem
+ &-logo
+  right: -30%
+  top: 50%
+  position: absolute
+  transform: translateY(-50%)
+  width: 698rem
+  z-index: -1
+ &-main
+  width: 936rem
+  margin-top: 59rem
+ &-header
+  margin: 0
+  margin-bottom: 73rem
+  text-align: left
+ &-wrap 
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  margin-bottom: 27rem
+ &-block
+  width: 434rem
+  cursor: pointer
+  margin-bottom: 44rem
+ &-top 
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  &__text
+   font-weight: 700
+   font-size: 24rem
+   line-height: 142%
+   letter-spacing: 0.02em
+   width: 360rem
+  &__plus 
+   font-size: 24rem
+   letter-spacing: 0.02em
+   color: #6480D0
+   margin-top: 4rem
+   z-index: 1
+   position: relative
+   &::after
+    width: 43rem
+    height: 43rem
+    position: absolute
+    display: block
+    content: ''
+    background: #6480D0
+    border-radius: 50%
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    opacity: 0 
+    transition: 0.4s
+    z-index: -1
+   &.active
+    color: #fff 
+    &::after
+     opacity: 1
+ &-answer 
+  display: none
+  line-height: 24rem
+  letter-spacing: 0.02em
+  margin-top: 11rem
+  width: 310rem
+ &-footer
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &__text
+   width: 525rem
+   font-size: 40rem
+   line-height: 138%
+   letter-spacing: 0.01em
+   color: #1C1C1C
+   font-weight: 250
+   span 
+    font-weight: 700
+  button 
+   margin-bottom: 0
+ &-director
+   
+  position: relative
+  img 
+   width: 569rem
+  &__info 
+   bottom: 126rem
+   right: 75rem

@@ -1,0 +1,141 @@
+.steps
+ margin-bottom: 132rem
+ position: relative
+ z-index: 2
+ margin-top: -80rem
+ padding-top: 80rem
+ .block-bg
+  top: -150rem
+ &-header
+  width: 915rem
+  margin-bottom: 29rem
+  line-height: 90rem
+
+ &-title
+  width: 1020rem
+  margin-bottom: 74rem
+  line-height: 45rem
+ &-slider
+  margin-left: 15rem
+  padding-bottom: 84rem
+  &__wrap
+   position: relative
+   .owl-item
+    // &:nth-last-child(5)
+     // .steps-block__number::after
+      // display: none
+   .arrow
+    &-prev
+     left: -110rem
+    &-next
+     right: -110rem
+  &__block
+   display: flex
+   align-items: start
+   justify-content: space-between
+ &-block
+  width: 262rem
+  &:hover
+   .steps-block
+    &__number
+     background: #6480D0
+     color: #FFFFFF
+     &::after
+      border-bottom: 2rem dotted #6480D0
+    &__time
+     background: #12C868
+     color: #FFFFFF
+  &.active
+   .steps-block
+    &__number
+     background: #6480D0
+     color: #FFFFFF
+     &::after
+      border-bottom: 2rem dotted #6480D0
+  &__number
+   background: #F6F8FA
+   width: 85rem
+   height: 85rem
+   border-radius: 50%
+   display: flex
+   align-items: center
+   justify-content: center
+   color: #CBCBCB
+   letter-spacing: 0.07em
+   font-size: 24rem
+   margin-bottom: 41rem
+   transition: 0.4s
+   position: relative
+   &.hide-line
+    &::after 
+     opacity: 0
+   &::after
+    content: ''
+    display: block
+    position: absolute
+    top: 50%
+    left: 115%
+    transform: translateY(-50%)
+    border-bottom: 2rem dotted #E2E2E2
+    height: 2rem
+    transition: 0.4s
+    width: 317rem
+    opacity: 1
+    transition: 0.4s
+  &__title
+   font-size: 30rem
+   font-weight: 700
+   letter-spacing: 0.05em
+   margin-bottom: 14rem
+  &__text
+   font-size: 18rem
+   letter-spacing: 0.05em
+   line-height: 27rem
+   margin-bottom: 41rem
+   span 
+    font-weight: 700
+  &__time
+   background: #F6F8FA
+   border-radius: 500rem
+   height: 40rem
+   width: 110rem
+   display: flex
+   align-items: center
+   justify-content: center
+   font-size: 12rem
+   color: #A5A5A5
+   transition: 0.4s
+  &__application
+   font-size: 14rem
+   font-weight: 700
+   letter-spacing: 0.05em
+   color: #6480D0
+   margin-bottom: 34rem
+   width: 125rem
+   margin-top: -32rem
+   &::after
+    bottom: -8rem
+  &__links
+   display: flex
+   margin-top: -28rem
+   a 
+    width: 40rem
+    height: 40rem
+    margin-right: 11rem
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: 0.4s
+    &:hover 
+     transform: scale(1.1)
+   .header-links
+    &-telegram
+     img
+      width: 16rem !important
+    &-whatsapp
+     img
+      width: 17.6rem !important
+    &-viber
+     img
+      width: 17rem !important

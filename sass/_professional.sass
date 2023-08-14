@@ -1,0 +1,152 @@
+.professional
+ position: relative
+ z-index: -1
+ margin-bottom: 87rem
+ margin-top: -80rem
+ padding-top: 80rem
+ &-bg
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 1920rem
+  transform: translate(-50%, -50%)
+  max-width: none
+  user-select: none
+  z-index: -2
+ &-logo
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 698rem
+  transform: translate(-50%, -50%)
+  z-index: -1
+  user-select: none
+ &-main
+  display: flex
+  justify-content: space-between
+  align-items: center
+  position: relative
+  z-index: 1
+ &-left 
+  margin-top: 49rem
+ &-title
+  text-align: left
+  margin: 0
+  margin-bottom: 34rem
+  width: 420rem
+  line-height: 150%
+ &-header
+  text-align: left
+  margin: 0 
+  margin-bottom: 34rem
+  width: 520rem
+  line-height: 138%
+ &-item
+  display: flex
+  align-items: center
+  margin-bottom: 25rem
+  &__check
+   width: 43rem
+   height: 43rem
+   border-radius: 50%
+   background: #FFFFFF
+   box-shadow: 0rem 0rem 37rem rgba(0, 0, 0, 0.03)
+   margin-right: 16rem
+   display: flex
+   align-items: center
+   justify-content: center
+   img 
+    width: 12rem
+  p 
+   line-height: 150%
+   letter-spacing: 0.03em
+   width: 490rem
+   span 
+    font-weight: 700
+ &-specialist
+  position: relative
+  &__slider
+   // width: 722rem
+   width: 760rem
+   margin-right: 49rem
+   img 
+    width: 722rem !important
+  &__info
+   position: absolute
+   top: calc( 33% - 4rem)
+   right: 11rem
+  &__name
+   border-radius: 10rem
+   background: #12C868
+   transform: skewX(-10deg)
+   font-weight: 500
+   width: 200rem
+   height: 50rem
+   display: flex
+   align-items: center
+   justify-content: center
+   font-size: 17rem
+   margin-bottom: 15rem
+   color: #FFFFFF
+   p 
+    transform: skewX(10deg)
+  &__job 
+   font-weight: 500
+   font-size: 13rem
+   line-height: 162%
+   color: #1C1C1C
+   width: 200rem
+   text-align: center
+ &-slider
+  width: 1250rem
+  margin: 0 auto
+  &__wrap
+   background: #FFFFFF
+   border-radius: 35rem
+   padding: 52rem   70rem
+   position: relative
+   .arrow
+    &-prev 
+     left: 70rem
+    &-next 
+     right: 70rem
+  &__block
+   display: flex
+   align-items: center
+   cursor: pointer
+   &:hover 
+    .professional-slider__img
+     &::after
+      opacity: 1
+  &__img 
+   background: #F6F8FA
+   width: 171rem
+   height: 171rem
+   border-radius: 50%
+   overflow: hidden 
+   display: flex
+   align-items: flex-end
+   justify-content: center
+   margin-right: 34rem
+   position: relative
+   &::after 
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    border-radius: 50%
+    background: rgba(100, 128, 208, 0.4)
+    opacity: 0
+    transition: 0.4s
+  &__info
+   width: 175rem
+  &__name
+   font-size: 30rem
+   font-weight: 700
+   line-height: 35rem
+   margin-bottom: 12rem
+  &__job 
+   color: #B9B9B9
